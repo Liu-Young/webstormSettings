@@ -4,6 +4,7 @@
       <mapping pattern=".babelrc" type="PLAIN_TEXT" />
       <mapping pattern="rside" type="PLAIN_TEXT" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
+      <mapping pattern="layerContent" type="PLAIN_TEXT" />
       <mapping pattern="header" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
