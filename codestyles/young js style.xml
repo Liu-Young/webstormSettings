@@ -5,6 +5,9 @@
     <option name="ALIGN_MULTIPLE_ASSIGNMENTS" value="true" />
     <option name="USE_DOUBLE_QUOTES" value="false" />
   </JSCodeStyleSettings>
+  <XML>
+    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+  </XML>
   <codeStyleSettings language="JavaScript">
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <indentOptions>
