@@ -8,6 +8,7 @@
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
       <mapping pattern="layerContent" type="PLAIN_TEXT" />
       <mapping pattern="header" type="PLAIN_TEXT" />
+      <mapping ext="java" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>

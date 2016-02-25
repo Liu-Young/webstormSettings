@@ -1,0 +1,83 @@
+<templateSet group="JavaScript Function Class">
+  <template name="ClassCounter" value="function Counter(options) {&#10;  this.options = {&#10;    el   : '.counterwrap',&#10;    add  : '.up',&#10;    sub  : '.down',&#10;    value: '.counter'&#10;  };&#10;&#10;  for (var i in options) {&#10;    this.options[i] = options[i];&#10;  }&#10;&#10;  this.result  = 0;&#10;  this.addEl   = document.querySelector(this.options.add);&#10;  this.subEl   = document.querySelector(this.options.sub);&#10;  this.valueEl = document.querySelector(this.options.value);&#10;&#10;  this.addEl.addEventListener('touchstart', function() {&#10;    this.result++;&#10;&#10;    this.valueEl.innerHTML = this.result;&#10;  }.bind(this));&#10;&#10;  this.subEl.addEventListener('touchstart', function() {&#10;    this.result--;&#10;&#10;    if (this.result &lt; 0) {&#10;      this.result = 0;&#10;    }&#10;    this.valueEl.innerHTML = this.result;&#10;  }.bind(this));&#10;}" description="加减法器 类" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ClassRiseTop" value="function RiseTop(options) {&#10;  this.options = {&#10;    el      : '.backtotop',&#10;    duration: undefined,&#10;  };&#10;&#10;  for (var i in options) {&#10;    this.options[i] = options[i];&#10;  }&#10;&#10;  this.el = document.querySelector(this.options.el);&#10;&#10;  this.rising        = false;&#10;  this.startPosition = 0;&#10;  this.endPosition   = 0;&#10;&#10;  this.el.addEventListener('touchstart', this.rise.bind(this));&#10;&#10;  // init&#10;  if (document.body.scrollTop &gt; 500) {&#10;    this.el.style.display = 'block';&#10;  } else {&#10;    this.el.style.display = 'none';&#10;  }&#10;&#10;  window.addEventListener('scroll', function() {&#10;    if (document.body.scrollTop &gt; 500) {&#10;      this.el.style.display = 'block';&#10;    } else {&#10;      this.el.style.display = 'none';&#10;    }&#10;  }.bind(this));&#10;}&#10;&#10;RiseTop.prototype.rise = function() {&#10;  if (this.rising) {&#10;    return;&#10;  }&#10;&#10;  this.rising = true;&#10;&#10;  this.startPosition = document.body.scrollTop;&#10;  this.endPosition   = 0;&#10;  this.duration      = this.options.duration ? this.options.duration : ( Math.abs(this.endPosition - this.startPosition) * .8);&#10;&#10;  requestAnimationFrame(this.animateLoop.bind(this));&#10;};&#10;&#10;RiseTop.prototype.easeInOutQuad = function(t, b, c, d) {&#10;  t /= d / 2;&#10;  if (t &lt; 1) return c / 2 * t * t + b;&#10;  t--;&#10;  return -c / 2 * ( t * ( t - 2 ) - 1 ) + b;&#10;};&#10;&#10;RiseTop.prototype.animateLoop = function(time) {&#10;  if (!this.startTime) {&#10;    this.startTime = time;&#10;  }&#10;&#10;  var timeSoFar     = time - this.startTime;&#10;  var easedPosition = this.easeInOutQuad(timeSoFar, this.startPosition, this.endPosition - this.startPosition, this.duration);&#10;&#10;  window.scrollTo(0, easedPosition);&#10;&#10;  if (timeSoFar &lt; this.duration) {&#10;    this.animation = requestAnimationFrame(this.animateLoop.bind(this));&#10;  } else {&#10;    this.animationFinished();&#10;  }&#10;};&#10;&#10;RiseTop.prototype.animationFinished = function() {&#10;  this.startTime     = null;&#10;  this.startPosition = null;&#10;  this.rising        = false;&#10;};" description="返回顶部 类" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="ClassTimer" value="function Timer(options) {&#10;  this.options = {&#10;    duration: 0,&#10;    format  : '距定制开始还剩dd天hh时mm分ss秒',&#10;  };&#10;&#10;  for (var i in options) {&#10;    this.options[i] = options[i];&#10;  }&#10;&#10;  this.timer    = null;&#10;  this.duration = this.options.duration;&#10;  this._events  = [];&#10;}&#10;&#10;Timer.prototype.start = function() {&#10;  clearInterval(this.timer);&#10;&#10;  this.timer = setInterval(function() {&#10;    this.duration -= 1000;&#10;    this._execEvent('change');&#10;&#10;    if (this.duration &lt; 0) {&#10;      this.duration = 0;&#10;      clearInterval(this.timer);&#10;      this.timer = null;&#10;    }&#10;  }.bind(this), 1000);&#10;};&#10;&#10;Timer.DAY    = 24 * 60 * 60 * 1000;&#10;Timer.HOUR   = 60 * 60 * 1000;&#10;Timer.MINUTE = 60 * 1000;&#10;Timer.SECOND = 1000;&#10;&#10;Timer.prototype.toString = function() {&#10;  var str = this.options.format;&#10;  str     = str.replace('dd', this.getDay());&#10;  str     = str.replace('hh', this.getHours());&#10;  str     = str.replace('mm', this.getMinutes());&#10;  str     = str.replace('ss', this.getSeconds());&#10;  return str;&#10;};&#10;&#10;Timer.prototype.on = function(type, fn) {&#10;  if (!this._events[type]) {&#10;    this._events[type] = [];&#10;  }&#10;&#10;  this._events[type].push(fn);&#10;};&#10;&#10;Timer.prototype.off = function(type, fn) {&#10;  if (!this._events[type]) {&#10;    return;&#10;  }&#10;&#10;  var index = this._events[type].indexOf(fn);&#10;&#10;  if (index &gt; -1) {&#10;    this._events[type].splice(index, 1);&#10;  }&#10;};&#10;&#10;Timer.prototype._execEvent = function(type) {&#10;  if (!this._events[type]) {&#10;    return;&#10;  }&#10;&#10;  var i = 0,&#10;      l = this._events[type].length;&#10;&#10;  if (!l) {&#10;    return;&#10;  }&#10;&#10;  for (; i &lt; l; i++) {&#10;    this._events[type][i].apply(this, [].slice.call(arguments, 1));&#10;  }&#10;};&#10;&#10;Timer.prototype.getDay = function() {&#10;  return parseInt(this.duration / Timer.DAY);&#10;};&#10;&#10;Timer.prototype.getHours = function() {&#10;  return parseInt(this.duration % Timer.DAY / Timer.HOUR);&#10;};&#10;&#10;Timer.prototype.getMinutes = function() {&#10;  return parseInt(this.duration % Timer.DAY % Timer.HOUR / Timer.MINUTE);&#10;};&#10;&#10;Timer.prototype.getSeconds = function() {&#10;  return parseInt(this.duration % Timer.DAY % Timer.HOUR % Timer.MINUTE / Timer.SECOND);&#10;};" description="倒计时 类" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
