@@ -1,0 +1,56 @@
+<templateSet group="Css Convenience">
+  <template name="FontFamilyModile1" value="font-family: &quot;Helvetica Neue&quot;, Helvetica, STHeiTi, sans-serif;" description="移动端字体设置" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="FontFamilyModile2" value="font-family: &quot;Roboto&quot;, &quot;Noto&quot;, Helvetica, &quot;Microsoft YaHei&quot;, &quot;Hiragino Sans GB&quot;, &quot;Hiragino Sans GB W3&quot;, Arial, sans-serif;" description="移动端字体设置" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>
