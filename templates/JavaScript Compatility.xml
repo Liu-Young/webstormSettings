@@ -1,0 +1,29 @@
+<templateSet group="JavaScript Compatility">
+  <template name="requestAnimationFrameCompatility" value="(function() {&#10;        var lastTime = 0;&#10;        var vendors = ['webkit', 'moz'];&#10;        for(var x = 0; x &lt; vendors.length &amp;&amp; !window.requestAnimationFrame; ++x) {&#10;            window.requestAnimationFrame = window[vendors[x] + 'RequestAnimationFrame'];&#10;            window.cancelAnimationFrame = window[vendors[x] + 'CancelAnimationFrame'] ||    // Webkit中此取消方法的名字变了&#10;              window[vendors[x] + 'CancelRequestAnimationFrame'];&#10;        }&#10;&#10;        if (!window.requestAnimationFrame) {&#10;            window.requestAnimationFrame = function(callback, element) {&#10;                var currTime = new Date().getTime();&#10;                var timeToCall = Math.max(0, 16.7 - (currTime - lastTime));&#10;                var id = window.setTimeout(function() {&#10;                    callback(currTime + timeToCall);&#10;                }, timeToCall);&#10;                lastTime = currTime + timeToCall;&#10;                return id;&#10;            };&#10;        }&#10;        if (!window.cancelAnimationFrame) {&#10;            window.cancelAnimationFrame = function(id) {&#10;                clearTimeout(id);&#10;            };&#10;        }&#10;    }());" description="requestAnimationFrame" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+</templateSet>

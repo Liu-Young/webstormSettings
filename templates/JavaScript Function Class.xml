@@ -80,4 +80,31 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="CascadingSelectClass" value=";(function(window, $) {&#10;  function CascadingSelect(options) {&#10;    this._defaults = {&#10;      el: '.CascadingSelect select'&#10;    }&#10;&#10;    this.options = {};&#10;    $.extend(true, this.options, this._defaults, options);&#10;&#10;    this._init();&#10;  }&#10;&#10;  CascadingSelect.prototype._init = function() {&#10;    this.$selects = $(this.options.el);&#10;&#10;    this.$selects.each(function(index, value) {&#10;      var $value = $(value);&#10;      if (index &lt; this.$selects.length - 1) {&#10;        $value.change(function() {&#10;          var data = this.options.data;&#10;          for (var i = 0; i &lt;= index; i++) {&#10;            var selectedIndex = this.$selects.eq(i).find(':selected').index();&#10;            if (data[selectedIndex].children) {&#10;              data = data[this.$selects.eq(i).find(':selected').index()].children;&#10;            }&#10;          }&#10;          this.$selects.eq(index + 1).empty().append(this._createOption(data));&#10;          for (var i = index + 2; i &lt; this.$selects.length; i++) {&#10;            this.$selects.eq(i).empty();&#10;          }&#10;        }.bind(this));&#10;      }&#10;    }.bind(this));&#10;&#10;    // FIXME: 与上面的change是同样的逻辑,代码需要优化.&#10;    this.$selects.eq(0).empty().append(this._createOption(this.options.data));&#10;    var data = this.options.data;&#10;    for (var i = 0; i &lt;= 0; i++) {&#10;      var selectedIndex = this.$selects.eq(i).find(':selected').index();&#10;      if (data[selectedIndex].children) {&#10;        data = data[this.$selects.eq(i).find(':selected').index()].children;&#10;      }&#10;    }&#10;    this.$selects.eq(1).empty().append(this._createOption(data));&#10;    for (var i = 2; i &lt; this.$selects.length; i++) {&#10;      this.$selects.eq(i).empty();&#10;    }&#10;  };&#10;&#10;  CascadingSelect.prototype._createOption = function(array) {&#10;    var ret = [];&#10;    if (!$.isArray(array)) return ret;&#10;&#10;    $.each(array, function(index, obj) {&#10;      if (!obj.value &amp;&amp; !obj.title) return;&#10;&#10;      ret.push($('&lt;option value=&quot;' + obj.value + '&quot;&gt;' + obj.title + '&lt;/option&gt;'));&#10;    });&#10;    return ret;&#10;  };&#10;&#10;  window.CascadingSelect = CascadingSelect;&#10;})(window, jQuery);" description="多个select级联操作" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
