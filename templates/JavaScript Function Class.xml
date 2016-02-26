@@ -107,4 +107,31 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="CLassTabs" value="function Tabs(options) {&#10;        this.options = {};&#10;&#10;        $.extend(this.options, options);&#10;&#10;        this.menus = this.options.menus.selector ? this.options.menus : $(this.options.menus);&#10;        this.tabs  = this.options.tabs.selector ? this.options.tabs : $(this.options.tabs);&#10;&#10;        this._init();&#10;    }&#10;&#10;    Tabs.prototype._init = function() {&#10;        $.each(this.menus, function(index, value) {&#10;            var $el = value.selector ? value : $(value);&#10;&#10;            $el.tap(function() {&#10;                this._hideMenu(this.menus);&#10;                this._hideTab(this.tabs);&#10;                this._showMenu($el);&#10;                this._showTab(this.tabs.eq(index));&#10;            }.bind(this));&#10;        }.bind(this));&#10;    };&#10;&#10;    Tabs.prototype._showMenu = function($el) {&#10;        $el.addClass('active');&#10;    };&#10;&#10;    Tabs.prototype._hideMenu = function($el) {&#10;        $el.removeClass('active');&#10;    };&#10;&#10;    Tabs.prototype._showTab = function($el) {&#10;        $el.addClass('active');&#10;    };&#10;&#10;    Tabs.prototype._hideTab = function($el) {&#10;        $el.removeClass('active');&#10;    };&#10;&#10;    Tabs.prototype.show = function(index) {&#10;&#10;    };" description="Tabs风格单选" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
