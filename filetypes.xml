@@ -1,9 +1,8 @@
 <application>
-  <component name="FileTypeManager" version="16">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="copyright" type="PLAIN_TEXT" />
-      <mapping pattern=".babelrc" type="PLAIN_TEXT" />
       <mapping pattern="rside" type="PLAIN_TEXT" />
       <mapping pattern="userCenterLeftNav" type="PLAIN_TEXT" />
       <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
