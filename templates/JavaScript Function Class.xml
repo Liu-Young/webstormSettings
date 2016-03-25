@@ -161,4 +161,32 @@
       <option name="OTHER" value="false" />
     </context>
   </template>
+  <template name="KeyCode" value="window.KeyCode = {&#10;  'BACKSPACE': 8,&#10;  'TAB': 9,&#10;  'ENTER': 13,&#10;  'SHIFT': 16,&#10;  'CTRL': 17,&#10;  'ALT': 18,&#10;  'PAUSE': 19,&#10;  'CAPSLOCK': 20,&#10;  'ESCAPE': 27,&#10;  'PAGEUP': 33,&#10;  'PAGEDOWN': 34,&#10;  'END': 35,&#10;  'HOME': 36,&#10;  'LEFT_ARROW': 37,&#10;  'UP_ARROW': 38,&#10;  'RIGHT_ARROW': 39,&#10;  'DOWN_ARROW': 40,&#10;  'INSERT': 45,&#10;  'DELETE': 46,&#10;  '0': 48,&#10;  '1': 49,&#10;  '2': 50,&#10;  '3': 51,&#10;  '4': 52,&#10;  '5': 53,&#10;  '6': 54,&#10;  '7': 55,&#10;  '8': 56,&#10;  '9': 57,&#10;  'A': 65,&#10;  'B': 66,&#10;  'C': 67,&#10;  'D': 68,&#10;  'E': 69,&#10;  'F': 70,&#10;  'G': 71,&#10;  'H': 72,&#10;  'I': 73,&#10;  'J': 74,&#10;  'K': 75,&#10;  'L': 76,&#10;  'M': 77,&#10;  'N': 78,&#10;  'O': 79,&#10;  'P': 80,&#10;  'Q': 81,&#10;  'R': 82,&#10;  'S': 83,&#10;  'T': 84,&#10;  'U': 85,&#10;  'V': 86,&#10;  'W': 87,&#10;  'X': 88,&#10;  'Y': 89,&#10;  'Z': 90,&#10;  'LEFT_WINDOWKEY': 91,&#10;  'RIGHT_WINDOWKEY': 92,&#10;  'SELECT': 93,&#10;  'NUMPAD0': 96,&#10;  'NUMPAD1': 97,&#10;  'NUMPAD2': 98,&#10;  'NUMPAD3': 99,&#10;  'NUMPAD4': 100,&#10;  'NUMPAD5': 101,&#10;  'NUMPAD6': 102,&#10;  'NUMPAD7': 103,&#10;  'NUMPAD8': 104,&#10;  'NUMPAD9': 105,&#10;  'MULTIPLY': 106,&#10;  'add': 107,&#10;  'subtract': 109,&#10;  'decimalPoint': 110,&#10;  'divide': 111,&#10;  'f1': 112,&#10;  'f2': 113,&#10;  'f3': 114,&#10;  'f4': 115,&#10;  'f5': 116,&#10;  'f6': 117,&#10;  'f7': 118,&#10;  'f8': 119,&#10;  'f9': 120,&#10;  'f10': 121,&#10;  'f11': 122,&#10;  'f12': 123,&#10;  'numLock': 144,&#10;  'scrollLock': 145,&#10;  'semiColon': 186,&#10;  'equalSign': 187,&#10;  'comma': 188,&#10;  'dash': 189,&#10;  'period': 190,&#10;  'forwardSlash': 191,&#10;  'graveAccent': 192,&#10;  'openBracket': 219,&#10;  'backSlash': 220,&#10;  'closeBracket': 221,&#10;  'singleQuote': 222&#10;}" description="keyboard keycode" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="false" />
+      <option name="JSON" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
+      <option name="CSS" value="false" />
+      <option name="CUCUMBER_FEATURE_FILE" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="TypeScript" value="false" />
+      <option name="Handlebars" value="false" />
+      <option name="HAML" value="false" />
+      <option name="JADE" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="DART_STATEMENT" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
 </templateSet>
