@@ -65,14 +65,14 @@
   </component>
   <component name="NodeJsLocalInterpreters">
     <local-interpreter path="/usr/local/bin/node">
-      <version-cache version="5.8.0" last-modified="1461767136000" />
+      <version-cache version="6.2.0" last-modified="1464279899000" />
     </local-interpreter>
     <local-interpreter path="/usr/local/Cellar/node/4.1.1/bin/node">
       <version-cache version="5.2.0" last-modified="1450160043000" />
     </local-interpreter>
   </component>
   <component name="NodeLocalInterpreterManager">
-    <node-interpreter path="/usr/local/bin/node" version="5.8.0" last-modified="1459314806000" />
+    <node-interpreter path="/usr/local/bin/node" version="6.2.0" last-modified="1464279899000" />
     <node-interpreter path="/usr/local/Cellar/node/4.1.1/bin/node" version="5.2.0" last-modified="1450160043000" />
   </component>
 </application>
