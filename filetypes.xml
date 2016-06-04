@@ -12,6 +12,7 @@
       <mapping pattern="layerContent" type="PLAIN_TEXT" />
       <mapping pattern="header" type="PLAIN_TEXT" />
       <mapping ext="java" type="PLAIN_TEXT" />
+      <mapping ext="bson" type="PLAIN_TEXT" />
       <mapping ext="postcss" type="SCSS" />
     </extensionMap>
   </component>
