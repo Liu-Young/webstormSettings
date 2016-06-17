@@ -2,19 +2,21 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="tpl" type="HTML" />
-      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="copyright" type="PLAIN_TEXT" />
-      <mapping pattern="fefw" type="PLAIN_TEXT" />
-      <mapping pattern="rside" type="PLAIN_TEXT" />
-      <mapping pattern=".fe" type="PLAIN_TEXT" />
-      <mapping pattern="userCenterLeftNav" type="PLAIN_TEXT" />
       <mapping pattern=".nojekyll" type="PLAIN_TEXT" />
+      <mapping pattern=".fe" type="PLAIN_TEXT" />
       <mapping pattern="Staticfile" type="PLAIN_TEXT" />
       <mapping pattern="layerContent" type="PLAIN_TEXT" />
+      <mapping pattern="fefw" type="PLAIN_TEXT" />
+      <mapping pattern="Dockerfile" type="PLAIN_TEXT" />
+      <mapping pattern="copyright" type="PLAIN_TEXT" />
+      <mapping pattern="rside" type="PLAIN_TEXT" />
+      <mapping pattern="userCenterLeftNav" type="PLAIN_TEXT" />
       <mapping pattern="header" type="PLAIN_TEXT" />
       <mapping ext="java" type="PLAIN_TEXT" />
       <mapping ext="bson" type="PLAIN_TEXT" />
       <mapping ext="postcss" type="SCSS" />
+      <removed_mapping ext="vue" approved="true" type="Vue" />
+      <mapping ext="vue" type="Vue.js file" />
     </extensionMap>
   </component>
 </application>
