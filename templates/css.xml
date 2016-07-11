@@ -1,9 +1,6 @@
 <templateSet group="css">
   <template name="fontios" value="font-family: &quot;Droid Sans&quot;, &quot;Droid Sans Fallback&quot;, &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Helvetica, STHeiTi, sans-serif;" description="fontios" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="CSS_PROPERTY_VALUE" value="true" />
-      <option name="CSS_DECLARATION_BLOCK" value="true" />
-      <option name="CSS_RULESET_LIST" value="true" />
       <option name="CSS" value="true" />
     </context>
   </template>
