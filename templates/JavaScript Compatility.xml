@@ -14,4 +14,9 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="isElement" value="function isElement(o) {&#10;  return (&#10;    typeof HTMLElement === &quot;object&quot; ? o instanceof HTMLElement :&#10;    typeof o === &quot;object&quot; &amp;&amp; o.nodeType === 1 &amp;&amp; typeof o.nodeName === &quot;string&quot;&#10;  );&#10;}" description="isElement" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
