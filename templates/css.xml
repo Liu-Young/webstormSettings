@@ -1,7 +1,0 @@
-<templateSet group="css">
-  <template name="fontios" value="font-family: &quot;Droid Sans&quot;, &quot;Droid Sans Fallback&quot;, &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Helvetica, STHeiTi, sans-serif;" description="fontios" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-    </context>
-  </template>
-</templateSet>
