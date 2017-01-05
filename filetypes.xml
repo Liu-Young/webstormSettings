@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="vue" type="HTML" />
+      <mapping ext="pac" type="JavaScript" />
       <mapping ext="vue1" type="Vue" />
       <removed_mapping ext="vue" type="Vue" />
     </extensionMap>
