@@ -1,10 +1,11 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="swig" type="HTML" />
       <mapping ext="vue" type="HTML" />
       <mapping ext="pac" type="JavaScript" />
-      <mapping pattern="run" type="PLAIN_TEXT" />
       <mapping pattern="hot" type="PLAIN_TEXT" />
+      <mapping pattern="run" type="PLAIN_TEXT" />
       <mapping ext="vue1" type="Vue" />
       <removed_mapping ext="vue" type="Vue" />
     </extensionMap>
