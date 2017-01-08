@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="vue" type="HTML" />
       <mapping ext="pac" type="JavaScript" />
+      <mapping pattern="run" type="PLAIN_TEXT" />
       <mapping ext="vue1" type="Vue" />
       <removed_mapping ext="vue" type="Vue" />
     </extensionMap>
