@@ -1,11 +1,21 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping ext="tps" type="DBN-PSQL" />
+      <mapping ext="tpe" type="DBN-PSQL" />
+      <mapping ext="pks" type="DBN-PSQL" />
+      <mapping ext="fnc" type="DBN-PSQL" />
+      <mapping ext="pkg" type="DBN-PSQL" />
+      <mapping ext="pkb" type="DBN-PSQL" />
+      <mapping ext="tpb" type="DBN-PSQL" />
+      <mapping ext="prc" type="DBN-PSQL" />
+      <mapping ext="trg" type="DBN-PSQL" />
+      <mapping ext="vw" type="DBN-SQL" />
       <mapping ext="swig" type="HTML" />
       <mapping ext="vue" type="HTML" />
       <mapping ext="pac" type="JavaScript" />
-      <mapping pattern="hot" type="PLAIN_TEXT" />
       <mapping pattern="run" type="PLAIN_TEXT" />
+      <mapping pattern="hot" type="PLAIN_TEXT" />
       <mapping ext="vue1" type="Vue" />
       <removed_mapping ext="vue" type="Vue" />
     </extensionMap>
