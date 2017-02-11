@@ -1,0 +1,19 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2017-02-09T23:17:56</property>
+    <property name="ide">WebStorm</property>
+    <property name="ideVersion">2016.3.3.0.0</property>
+    <property name="modified">2017-02-11T12:12:59</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <attributes>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="EFFECT_COLOR" value="9ba4b3" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
