@@ -5,9 +5,10 @@
       <mapping ext="vue" type="HTML" />
       <mapping pattern=".roadhogrc" type="JSON" />
       <mapping ext="pac" type="JavaScript" />
-      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping pattern="run" type="PLAIN_TEXT" />
       <mapping pattern="hot" type="PLAIN_TEXT" />
+      <mapping pattern="fewf" type="PLAIN_TEXT" />
+      <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="vue1" type="Vue" />
       <removed_mapping ext="vue" type="Vue" />
       <mapping ext="fnc" type="DBN-PSQL" />
