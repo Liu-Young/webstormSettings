@@ -4,6 +4,7 @@
       <mapping ext="swig" type="HTML" />
       <mapping ext="vue" type="HTML" />
       <mapping pattern=".roadhogrc" type="JSON" />
+      <mapping pattern="Select" type="JavaScript" />
       <mapping ext="pac" type="JavaScript" />
       <mapping pattern="run" type="PLAIN_TEXT" />
       <mapping pattern="hot" type="PLAIN_TEXT" />
