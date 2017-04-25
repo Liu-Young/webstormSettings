@@ -8,6 +8,7 @@
       <mapping pattern="Select" type="JavaScript" />
       <mapping ext="pac" type="JavaScript" />
       <mapping pattern="run" type="PLAIN_TEXT" />
+      <mapping pattern=".npmrc" type="PLAIN_TEXT" />
       <mapping pattern="hot" type="PLAIN_TEXT" />
       <mapping pattern=".eslintrc_back" type="PLAIN_TEXT" />
       <mapping pattern="fewf" type="PLAIN_TEXT" />
