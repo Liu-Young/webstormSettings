@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="swig" type="HTML" />
       <mapping pattern=".roadhogrc" type="JSON" />
+      <mapping pattern="session" type="JavaScript" />
       <mapping pattern="Status" type="JavaScript" />
       <mapping pattern="Select" type="JavaScript" />
       <mapping ext="pac" type="JavaScript" />
