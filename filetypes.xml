@@ -11,6 +11,7 @@
       <mapping pattern=".eslintrc_back" type="PLAIN_TEXT" />
       <mapping pattern=".babelrc23932" type="PLAIN_TEXT" />
       <mapping pattern="abck" type="PLAIN_TEXT" />
+      <mapping pattern="fef" type="PLAIN_TEXT" />
       <mapping pattern="fewf" type="PLAIN_TEXT" />
       <mapping pattern="image" type="PLAIN_TEXT" />
       <mapping pattern="hot" type="PLAIN_TEXT" />
