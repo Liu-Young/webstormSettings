@@ -21,6 +21,7 @@
       <mapping pattern="run" type="PLAIN_TEXT" />
       <mapping pattern=".editorconfig" type="PLAIN_TEXT" />
       <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="j" type="PLAIN_TEXT" />
       <mapping ext="wxss" type="SCSS" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
