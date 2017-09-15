@@ -1,0 +1,13 @@
+<application>
+  <component name="libraryTable">
+    <library name="wx" type="javaScript">
+      <CLASSES>
+        <root url="file://$USER_HOME$/Projects/tencent/xiaochengxu-jubao/wx.js" />
+      </CLASSES>
+      <DOCUMENTATION>
+        <root url="https://mp.weixin.qq.com/debug/wxadoc/dev/api/network-request.html" />
+      </DOCUMENTATION>
+      <SOURCES />
+    </library>
+  </component>
+</application>
