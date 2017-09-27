@@ -1,8 +1,0 @@
-<application>
-  <component name="AbbreviationManager">
-    <abbreviations>
-      <action id="EditorDownWithSelection" />
-      <action id="ShowUmlDiagram" />
-    </abbreviations>
-  </component>
-</application>
