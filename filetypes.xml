@@ -5,6 +5,7 @@
       <mapping pattern=".editorconfigewfewjfioewjo" type="PLAIN_TEXT" />
       <mapping pattern="getter" type="PLAIN_TEXT" />
       <mapping pattern="cloc-git" type="PLAIN_TEXT" />
+      <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
