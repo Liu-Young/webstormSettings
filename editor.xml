@@ -1,5 +1,5 @@
 <application>
-  <component name="LiveEditOptions" chromeUpdateOnChanges="true">
+  <component name="LiveEditOptions" chromeAutoDelay="0" chromeUpdateApp="true" chromeUpdateOnChanges="true">
     <option name="elementHighlighting" value="true" />
   </component>
 </application>
