@@ -4,4 +4,7 @@
     <variable name="VAR1" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
+  <template name="btn" value="&lt;button&gt;$END$&lt;/button&gt;" description="&lt;button&gt;...&lt;/button&gt;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
