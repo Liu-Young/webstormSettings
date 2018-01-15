@@ -1,0 +1,50 @@
+<templateSet group="React">
+  <template name="cdm" value="componentDidMount() {&#10;    $END$&#10;}" description="React: componentDidMount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cdu" value="componentDidUpdate(prevProps, prevState, prevContext) {&#10;    $END$&#10;}" description="React: componentDidUpdate" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cwm" value="componentWillMount() {&#10;    $END$&#10;}" description="React: componentWillMount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cwr" value="componentWillReceiveProps(nextProps, nextContext) {&#10;    $END$&#10;}" description="React: componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cwu" value="componentWillUpdate(nextProps, nextContext) {&#10;    $END$&#10;}" description="React: componentWillUpdate" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cwum" value="componentWillUnmount() {&#10;    $END$&#10;}" description="React: componentWillUnmount" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+</templateSet>
