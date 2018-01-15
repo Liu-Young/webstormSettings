@@ -23,7 +23,7 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="cwr" value="componentWillReceiveProps(nextProps, nextContext) {&#10;    $END$&#10;}" description="React: componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
+  <template name="cwr" value="componentWillReceiveProps(nextProps, nextState) {&#10;    $END$&#10;}" description="React: componentWillReceiveProps" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
@@ -31,7 +31,7 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
-  <template name="cwu" value="componentWillUpdate(nextProps, nextContext) {&#10;    $END$&#10;}" description="React: componentWillUpdate" toReformat="true" toShortenFQNames="true">
+  <template name="cwu" value="componentWillUpdate(nextProps, nextState) {&#10;    $END$&#10;}" description="React: componentWillUpdate" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JSX_HTML" value="false" />
