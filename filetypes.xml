@@ -2,9 +2,10 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="js" type="JSX Harmony" />
-      <removed_mapping ext="js" approved="true" type="JavaScript" />
-      <mapping pattern=".babelr" type="PLAIN_TEXT" />
+      <removed_mapping ext="js" type="JavaScript" />
       <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
+      <mapping pattern="few" type="PLAIN_TEXT" />
+      <mapping pattern=".babelr" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
