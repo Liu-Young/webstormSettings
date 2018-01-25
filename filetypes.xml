@@ -6,6 +6,7 @@
       <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
       <mapping pattern="few" type="PLAIN_TEXT" />
       <mapping pattern=".babelr" type="PLAIN_TEXT" />
+      <mapping ext="map" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
