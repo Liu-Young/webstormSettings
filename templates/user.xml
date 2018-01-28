@@ -11,4 +11,9 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="dib" value="display: inline-block;&#10;*display: inline;&#10;zoom: 1;" description="兼容IE 8的display inline-block" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS_DECLARATION_BLOCK" value="true" />
+    </context>
+  </template>
 </templateSet>
