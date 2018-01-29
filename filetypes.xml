@@ -9,6 +9,7 @@
       <mapping pattern=".babelr" type="PLAIN_TEXT" />
       <mapping pattern=".babel" type="PLAIN_TEXT" />
       <mapping ext="map" type="PLAIN_TEXT" />
+      <mapping ext="wxss" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
