@@ -7,6 +7,7 @@
       <mapping ext="js" type="JSX Harmony" />
       <removed_mapping ext="js" type="JavaScript" />
       <mapping pattern=".babel" type="PLAIN_TEXT" />
+      <mapping pattern="修改说明" type="PLAIN_TEXT" />
       <mapping pattern="issue" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".yarnrc" type="PLAIN_TEXT" />
