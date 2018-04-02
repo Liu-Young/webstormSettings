@@ -16,7 +16,7 @@
       <option name="CSS_DECLARATION_BLOCK" value="true" />
     </context>
   </template>
-  <template name="dvard" value="$name$(state, action) {&#10;  return {&#10;    ...state,&#10;    $END$&#10;  }&#10;}" toReformat="true" toShortenFQNames="true">
+  <template name="dvard" value="$name$(state, action) {&#10;  return {&#10;    ...state,&#10;    $END$&#10;  }&#10;}" description="" toReformat="true" toShortenFQNames="true">
     <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
