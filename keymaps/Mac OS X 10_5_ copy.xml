@@ -2,6 +2,10 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
+  <action id="EditorCompleteStatement">
+    <keyboard-shortcut first-keystroke="shift meta enter" />
+    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="m" />
+  </action>
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="meta back_space" />
     <keyboard-shortcut first-keystroke="ctrl meta h" />
