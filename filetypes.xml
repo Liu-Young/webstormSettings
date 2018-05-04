@@ -3,11 +3,10 @@
     <extensionMap>
       <mapping ext="wxss" type="CSS" />
       <mapping ext="wxml" type="HTML" />
+      <mapping pattern="PMessageItemBase" type="PLAIN_TEXT" />
       <mapping pattern="trans" type="PLAIN_TEXT" />
       <mapping pattern="ImageItem" type="PLAIN_TEXT" />
-      <mapping pattern="PMessageItemBase" type="PLAIN_TEXT" />
       <mapping pattern="SendItemAgain" type="PLAIN_TEXT" />
-      <mapping ext="md" type="PLAIN_TEXT" />
       <mapping ext="wpy" type="Vue.js" />
     </extensionMap>
   </component>
