@@ -9,6 +9,7 @@
       <mapping pattern="trans" type="PLAIN_TEXT" />
       <mapping pattern="services" type="PLAIN_TEXT" />
       <mapping pattern="SendItemAgain" type="PLAIN_TEXT" />
+      <mapping ext="j" type="PLAIN_TEXT" />
       <mapping ext="wepy" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
       <mapping ext="wpy" type="Vue.js" />
