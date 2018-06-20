@@ -13,6 +13,7 @@
       <mapping ext="j" type="PLAIN_TEXT" />
       <mapping ext="wepy" type="PLAIN_TEXT" />
       <mapping ext="py" type="PLAIN_TEXT" />
+      <mapping ext="s" type="PLAIN_TEXT" />
       <mapping ext="wpy" type="Vue.js" />
     </extensionMap>
   </component>
