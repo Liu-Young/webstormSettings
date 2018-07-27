@@ -2,4 +2,7 @@
   <template name="m" value="margin: $END$;" description="margin:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="mb" value="margin-bottom: $END$;" description="margin-bottom:...;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
