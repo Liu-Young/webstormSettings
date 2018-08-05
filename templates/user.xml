@@ -25,4 +25,13 @@
       <option name="JS_STATEMENT" value="false" />
     </context>
   </template>
+  <template name="afn" value="($params$) =&gt; {&#10;    $END$&#10;}" description="() =&gt; {}" toReformat="true" toShortenFQNames="true">
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_EXPRESSION" value="true" />
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
