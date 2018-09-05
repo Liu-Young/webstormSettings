@@ -1,7 +1,6 @@
-<code_scheme name="Default 4indent" version="173">
+<code_scheme name="young-js 4" version="173">
   <HTMLCodeStyleSettings>
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
-    <option name="HTML_QUOTE_STYLE" value="Single" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings>
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
@@ -11,21 +10,16 @@
     <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
+    <option name="IMPORT_SORT_MODULE_NAME" value="true" />
   </JSCodeStyleSettings>
-  <TypeScriptCodeStyleSettings>
-    <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
-    <option name="FORCE_SEMICOLON_STYLE" value="true" />
-    <option name="USE_DOUBLE_QUOTES" value="false" />
-    <option name="FORCE_QUOTE_STYlE" value="true" />
-    <option name="ENFORCE_TRAILING_COMMA" value="WhenMultiline" />
-    <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
-    <option name="SPACES_WITHIN_IMPORTS" value="true" />
-  </TypeScriptCodeStyleSettings>
-  <codeStyleSettings language="TypeScript">
+  <codeStyleSettings language="HTML">
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+      <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="JavaScript">
+    <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
   </codeStyleSettings>
 </code_scheme>
