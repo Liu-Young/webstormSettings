@@ -8,10 +8,6 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="@types/koa-session-minimal" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
     <library name="@types/sequelize" type="javaScript">
       <CLASSES />
       <SOURCES />
