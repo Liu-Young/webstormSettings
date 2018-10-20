@@ -40,4 +40,11 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="aafn" value="async ($param$) =&gt; {&#10;  $END$&#10;}" description="async () =&gt; {}" toReformat="true" toShortenFQNames="true">
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_EXPRESSION" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
