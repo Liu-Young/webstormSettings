@@ -1,35 +1,10 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
-  <action id="EditorCloneCaretBelow">
-    <keyboard-shortcut first-keystroke="meta i" />
-  </action>
-  <action id="EditorCompleteStatement">
-    <keyboard-shortcut first-keystroke="shift meta enter" />
-    <keyboard-shortcut first-keystroke="ctrl l" second-keystroke="m" />
-  </action>
-  <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="meta back_space" />
-    <keyboard-shortcut first-keystroke="ctrl meta h" />
-  </action>
-  <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="ctrl m" />
-    <keyboard-shortcut first-keystroke="ctrl meta m" />
-  </action>
-  <action id="EditorSelectWord">
-    <keyboard-shortcut first-keystroke="alt up" />
-    <keyboard-shortcut first-keystroke="ctrl w" />
-  </action>
-  <action id="MethodDown">
-    <keyboard-shortcut first-keystroke="ctrl down" />
-    <keyboard-shortcut first-keystroke="ctrl meta n" />
-  </action>
-  <action id="MethodUp">
-    <keyboard-shortcut first-keystroke="ctrl up" />
-    <keyboard-shortcut first-keystroke="ctrl meta p" />
-  </action>
-  <action id="ScrollPane-scrollDown">
+  <action id="EditorPageDown">
+    <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
-  <action id="ScrollPane-scrollUp">
+  <action id="EditorPageUp">
+    <keyboard-shortcut first-keystroke="page_up" />
     <keyboard-shortcut first-keystroke="ctrl u" />
   </action>
 </keymap>
