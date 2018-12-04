@@ -4,6 +4,7 @@
       <mapping ext="wxss" type="CSS" />
       <mapping ext="wxml" type="HTML" />
       <mapping pattern="events" type="PLAIN_TEXT" />
+      <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
