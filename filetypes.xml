@@ -3,10 +3,12 @@
     <extensionMap>
       <mapping ext="wxss" type="CSS" />
       <mapping ext="wxml" type="HTML" />
+      <mapping pattern=".env.test" type="PLAIN_TEXT" />
       <mapping pattern="events" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping pattern="modal" type="PLAIN_TEXT" />
+      <mapping pattern=".env.development" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
     </extensionMap>
