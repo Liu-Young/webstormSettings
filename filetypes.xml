@@ -8,7 +8,9 @@
       <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
+      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env.development" approved="true" type=".env file" />
+      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".dev.test" approved="true" type=".env file" />
       <removed_mapping pattern=".env.test" approved="true" type=".env file" />
     </extensionMap>
