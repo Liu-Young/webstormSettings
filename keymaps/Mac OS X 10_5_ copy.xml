@@ -11,4 +11,8 @@
     <keyboard-shortcut first-keystroke="alt up" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+  </action>
 </keymap>
