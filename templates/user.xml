@@ -53,4 +53,16 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="ms" value="const mapState = state =&gt; ({&#10;    $END$&#10;})" description="redux mapState" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="mp" value="const mapDispatch = dispatch =&gt; ({&#10;    $END$    &#10;})" description="redux mapDispatch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
