@@ -5,4 +5,7 @@
   <template name="br" value="&lt;br&gt;" description="&lt;br&gt;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="style" value="&lt;style&gt;$END$&lt;/style&gt;" description="&lt;style&gt;...&lt;/style&gt;" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
