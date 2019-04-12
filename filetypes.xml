@@ -3,15 +3,18 @@
     <extensionMap>
       <mapping ext="wxss" type="CSS" />
       <mapping ext="wxml" type="HTML" />
+      <mapping pattern="private_key" type="PLAIN_TEXT" />
+      <mapping pattern="events" type="PLAIN_TEXT" />
+      <mapping pattern="public_key" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping pattern="modal" type="PLAIN_TEXT" />
-      <mapping pattern="events" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
-      <removed_mapping pattern=".env.development" approved="true" type=".env file" />
-      <removed_mapping pattern=".env.test" approved="true" type=".env file" />
       <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".dev.test" approved="true" type=".env file" />
+      <removed_mapping pattern=".env.development" approved="true" type=".env file" />
+      <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern=".env.test" approved="true" type=".env file" />
     </extensionMap>
   </component>
 </application>
