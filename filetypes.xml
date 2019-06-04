@@ -5,13 +5,14 @@
       <mapping ext="wxml" type="HTML" />
       <mapping pattern=".lintstagedrc" type="JSON" />
       <mapping pattern=".huskyrc" type="JSON" />
-      <mapping pattern="private_key" type="PLAIN_TEXT" />
-      <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping pattern="events" type="PLAIN_TEXT" />
+      <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="public_key" type="PLAIN_TEXT" />
+      <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
+      <mapping ext="mdx" type="PLAIN_TEXT" />
       <removed_mapping ext="sh" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env.development" approved="true" type=".env file" />
       <removed_mapping pattern=".env.test" approved="true" type=".env file" />
