@@ -7,15 +7,15 @@
       <mapping ext="wxml" type="HTML" />
       <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern=".lintstagedrc" type="JSON" />
-      <mapping pattern="wefw" type="PLAIN_TEXT" />
-      <mapping pattern="modal" type="PLAIN_TEXT" />
-      <mapping pattern="public_key" type="PLAIN_TEXT" />
-      <mapping pattern="events" type="PLAIN_TEXT" />
-      <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
+      <mapping pattern="wefw" type="PLAIN_TEXT" />
       <mapping pattern="private_key" type="PLAIN_TEXT" />
-      <mapping ext="mdx" type="PLAIN_TEXT" />
+      <mapping pattern="events" type="PLAIN_TEXT" />
+      <mapping pattern="public_key" type="PLAIN_TEXT" />
+      <mapping pattern="modal" type="PLAIN_TEXT" />
+      <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
+      <mapping ext="mdx" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
