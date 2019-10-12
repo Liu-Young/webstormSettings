@@ -1,0 +1,4 @@
+<application>
+  <component name="DevhelperSettingStore" DevhelperUsername="" DevhelperToken="" isLocalCrOn="false" isTapdBugOn="true" isTapdStoryOn="true" isCodeDogOn="true" isWbMrReviewOn="true" isWbCrOn="true" isRdm4On="true" />
+  <component name="RDHelperGerritSettings" AutomaticRefresh="true" RefreshTimeout="5" ReviewNotifications="true" FilterConditions="all_all_all" LAST_AUTO_CREATE_CR_REQUEST_TIME_1="0" />
+</application>
