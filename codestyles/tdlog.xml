@@ -1,6 +1,7 @@
 <code_scheme name="tdlog" version="173">
   <HTMLCodeStyleSettings>
     <option name="HTML_SPACE_INSIDE_EMPTY_TAG" value="true" />
+    <option name="HTML_DO_NOT_INDENT_CHILDREN_OF" value="html,body,thead,tbody,tfoot,script" />
   </HTMLCodeStyleSettings>
   <JSCodeStyleSettings version="0">
     <option name="USE_SEMICOLON_AFTER_STATEMENT" value="false" />
@@ -25,6 +26,7 @@
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
+    <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <option name="KEEP_SIMPLE_METHODS_IN_ONE_LINE" value="true" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
