@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern=".env.development.local" type=".env file" />
       <mapping ext="wxss" type="CSS" />
       <mapping ext="wxml" type="HTML" />
       <mapping pattern=".huskyrc" type="JSON" />
@@ -11,7 +12,6 @@
       <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping pattern="wefw" type="PLAIN_TEXT" />
-      <mapping pattern=".env.development.local" type="PLAIN_TEXT" />
       <mapping pattern=".babel" type="PLAIN_TEXT" />
       <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
