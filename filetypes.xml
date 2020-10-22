@@ -2,8 +2,6 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern=".env.development.local" type=".env file" />
-      <mapping ext="wxss" type="CSS" />
-      <mapping ext="wxml" type="HTML" />
       <mapping pattern=".lintstagedrc" type="JSON" />
       <mapping pattern=".huskyrc" type="JSON" />
       <mapping pattern="wefw" type="PLAIN_TEXT" />
@@ -18,6 +16,7 @@
       <mapping ext="mdx" type="PLAIN_TEXT" />
       <mapping ext="sj" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env.development" approved="true" type=".env file" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
