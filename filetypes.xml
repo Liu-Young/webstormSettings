@@ -7,6 +7,7 @@
       <mapping pattern="wefw" type="PLAIN_TEXT" />
       <mapping pattern="events" type="PLAIN_TEXT" />
       <mapping pattern="public_key" type="PLAIN_TEXT" />
+      <mapping pattern="PushSettingConstant" type="PLAIN_TEXT" />
       <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping pattern=".babel" type="PLAIN_TEXT" />
