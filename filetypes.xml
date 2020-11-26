@@ -11,6 +11,7 @@
       <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping pattern=".babel" type="PLAIN_TEXT" />
+      <mapping pattern="UIUpload" type="PLAIN_TEXT" />
       <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
