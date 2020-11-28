@@ -7,15 +7,16 @@
       <mapping pattern="wefw" type="PLAIN_TEXT" />
       <mapping pattern="events" type="PLAIN_TEXT" />
       <mapping pattern="public_key" type="PLAIN_TEXT" />
+      <mapping pattern="PushSettingConstant" type="PLAIN_TEXT" />
       <mapping pattern="modal" type="PLAIN_TEXT" />
       <mapping pattern="about" type="PLAIN_TEXT" />
       <mapping pattern=".babel" type="PLAIN_TEXT" />
+      <mapping pattern="UIUpload" type="PLAIN_TEXT" />
       <mapping pattern="private_key" type="PLAIN_TEXT" />
       <mapping pattern="Header" type="PLAIN_TEXT" />
       <mapping ext="scs" type="PLAIN_TEXT" />
       <mapping ext="sj" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
-      <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".env.development" approved="true" type=".env file" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
