@@ -15,5 +15,6 @@
     <keyboard-shortcut first-keystroke="alt up" />
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
+  <action id="ReformatWithPrettierAction" />
   <action id="UML.ShowChanges" />
 </keymap>
