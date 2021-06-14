@@ -2,4 +2,7 @@
   <template name="pt" value="return pauseTest();" description="Insert pauseTest" toReformat="false" toShortenFQNames="true">
     <context />
   </template>
+  <template name="then" value="andThen(() =&gt; {&#10;  $END$&#10;});" description="Insert andThen" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
 </templateSet>
