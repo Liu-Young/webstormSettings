@@ -16,5 +16,9 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="ReformatWithPrettierAction" />
+  <action id="SelectIn">
+    <keyboard-shortcut first-keystroke="alt f1" />
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
   <action id="UML.ShowChanges" />
 </keymap>
