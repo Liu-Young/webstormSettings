@@ -83,4 +83,12 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="uss" value="const [$state$, $setState$] = useState($END$)" description="useState" toReformat="true" toShortenFQNames="true">
+    <variable name="state" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="setState" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>
