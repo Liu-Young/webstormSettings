@@ -21,4 +21,7 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="UML.ShowChanges" />
+  <action id="osmedile.intellij.stringmanip.DuplicateAndIncrementAction">
+    <keyboard-shortcut first-keystroke="ctrl meta w" />
+  </action>
 </keymap>
