@@ -1,0 +1,5 @@
+<templateSet group="Ember.js">
+  <template name="pt" value="return pauseTest();" description="Insert pauseTest" toReformat="false" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>

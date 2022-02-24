@@ -1,0 +1,15 @@
+<templateSet group="swig">
+  <template name="swfor" value="{% for $item$ in $list$ %}&#10;$END$&#10;{% endfor %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="item" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="list" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="swif" value="{% if $condition$ %}&#10;$END$&#10;{% endif %}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
