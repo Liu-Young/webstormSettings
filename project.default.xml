@@ -1,0 +1,37 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="AutoImportSettings">
+        <option name="autoReloadType" value="SELECTIVE" />
+      </component>
+      <component name="ExternalSystemProjectTracker">
+        <option name="projectSettingsTrackerStates">
+          <map>
+            <entry>
+              <key>
+                <Id>
+                  <option name="externalProjectPath" value="Default (Template) Project" />
+                  <option name="systemId" value="Cargo" />
+                </Id>
+              </key>
+              <value>
+                <Project>
+                  <option name="settingsTracker">
+                    <State>
+                      <option name="dirty" value="false" />
+                    </State>
+                  </option>
+                </Project>
+              </value>
+            </entry>
+          </map>
+        </option>
+      </component>
+      <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+    </defaultProject>
+  </component>
+</application>
