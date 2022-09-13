@@ -22,4 +22,7 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleItalicAction" />
+  <action id="osmedile.intellij.stringmanip.DuplicateAndIncrementAction">
+    <keyboard-shortcut first-keystroke="ctrl meta i" />
+  </action>
 </keymap>
