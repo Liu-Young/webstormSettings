@@ -1,8 +1,4 @@
 <templateSet group="Zen CSS">
-  <template name="ov" value="overflow:$VAR0$;" description="overflow:...;" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR0" expression="" defaultValue="&quot;hidden&quot;" alwaysStopAt="true" />
-    <context />
-  </template>
   <template name="h" value="height: $END$;" description="height:...;" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
