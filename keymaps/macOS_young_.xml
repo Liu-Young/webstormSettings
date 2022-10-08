@@ -1,4 +1,7 @@
 <keymap version="1" name="macOS(young)" parent="Mac OS X 10.5+">
+  <action id="ActivateVcsChangesToolWindow">
+    <keyboard-shortcut first-keystroke="alt f6" />
+  </action>
   <action id="EditorPageDown">
     <keyboard-shortcut first-keystroke="page_down" />
     <keyboard-shortcut first-keystroke="ctrl y" />
