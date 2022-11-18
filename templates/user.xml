@@ -18,7 +18,7 @@
   </template>
   <template name="cl" value="console.log($END$)" description="console.log" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="JS_CLASS_MEMBER_STATEMENT" value="false" />
+      <option name="JS_EXPRESSION" value="true" />
       <option name="JS_STATEMENT" value="true" />
       <option name="TS_STATEMENT" value="true" />
       <option name="VUE_SCRIPT" value="true" />
